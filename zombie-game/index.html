@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Zombie Game</title>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div id="startScreen" class="startScreen startScreenVisible">
+			<img class="logo" src="images/logo.png">
+			<p>Kill as many zombies as you can in 30 seconds!</p>
+			<button type="button" class="btn" id="clk">start</button>
+		</div>
+		<div id="resultScreen" class="resultScreen">
+			<h1>You scored <span id="numHits"></span>!</h1>
+			<p>Now buy one of our DVDs!</p>
+			<button type="button" class="btn" id="restart">Try again</button>
+		</div>
+	</div>
+	<div id="timer" class="timer"></div>
+	<div class="BlocksGame"></div>
+  	<script src="js/blocksjs-0.5.11.min.js"></script>
+  	<script src="js/min/app-min.js"></script>
+</body>
+</html>
