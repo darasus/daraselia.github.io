@@ -9,8 +9,8 @@ html {
 body {
 	height:100%;
 	font-family: 'Lato', sans-serif;
-	background:#333;
-	color: #fff;
+	background: #fff;
+	color: #333;
 }
 a {
 	color: #fff;
@@ -38,30 +38,37 @@ a {
     flex: none;
     padding: 30px;
     text-align: left;
+    overflow: hidden;
 }
 .content h1 {
     font-weight: bold;
     font-size: 80px;
     margin: 0 0 20px 0;
-    color: #fff;
+    color: #333;
 }
 .content h1 span {
 	color: #FF4B4B;
 }
 .content > span {
-    font-size: 20px;
     display: block;
+    font-size: 20px;
     margin-bottom: 30px;
-    color: rgba(255,255,255,0.3);
-    font-weight: 200;
+    color: #333;
+    font-weight: 300;
 }
 .content a {
+    display: block;
+    float: left;
 	text-decoration: none;
 	margin-right: 10px;
 }
+.content a:last-child {
+    margin-right: 0;
+}
 .content a svg {
+    display: block;
 	height: 30px;
-	fill: rgba(255,255,255,0.3);
+	fill: #333;
 }
 .content a.facebook:hover svg {
 	fill: #3B5998;
