@@ -1,3 +1,8 @@
+* {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
 html {
 	height:100%;
 }
@@ -48,7 +53,7 @@ a {
     display: block;
     margin-bottom: 30px;
     color: rgba(255,255,255,0.3);
-    font-weight: 100;
+    font-weight: 200;
 }
 .content a {
 	text-decoration: none;
