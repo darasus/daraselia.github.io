@@ -28,6 +28,7 @@ body {
     display: block;
     margin: 20px 0;
     padding: 0 30px;
+    line-height: 1;
 }
 .container a {
     display: inline-block;
