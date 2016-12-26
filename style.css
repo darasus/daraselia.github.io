@@ -11,80 +11,54 @@ body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background: #fff;
 	color: #333;
+    font-size: 16px;
 }
 a {
 	color: #fff;
 }
 .container {
-	height: 100%;
-	display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+	width: 100vw;
+    height: 100vh;
     display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: center;
-    justify-content: flex-start;
-    border-left: 5px solid #FF4B4B;
+    justify-content: center;
+    text-align: center;
 }
-.content {
-    -webkit-box-flex: 0;
-    -webkit-flex: none;
-    -ms-flex: none;
-    flex: none;
-    padding: 30px;
-    text-align: left;
-    overflow: hidden;
-}
+.content {}
+.content > * {}
 .content h1 {
     font-weight: bold;
-    font-size: 80px;
-    margin: 0 0 20px 0;
-    color: #333;
-}
-.content h1 span {
+    font-size: 10rem;
+    display: inline-block;
 	color: #FF4B4B;
+    background-image: url(assets/img/text_bg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .content > span {
     display: block;
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px; 
     color: #333;
     font-weight: 300;
 }
 .content a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 5px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+.content a:hover img {
+    opacity: 1;
+}
+.content a img {
     display: block;
-    float: left;
-	text-decoration: none;
-	margin-right: 10px;
-}
-.content a:last-child {
-    margin-right: 0;
-}
-.content a svg {
-    display: block;
-	height: 30px;
-	fill: #333;
-}
-.content a.facebook:hover svg {
-	fill: #3B5998;
-}
-.content a.github:hover svg {
-	fill: #181717;
-}
-.content a.dribbble:hover svg {
-	fill: #EA4C89;
-}
-.content a.linkedin:hover svg {
-	fill: #0077B5;
-}
-.content a.instagram:hover svg {
-	fill: #125688;
-}
-.content a.twitter:hover svg {
-	fill: #55ACEE;
+	height: 20px;
+    opacity: 0.8;
 }
