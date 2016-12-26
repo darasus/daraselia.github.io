@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "25479",
 "files": {
+	"\/assets\/img\/favicon.png": {
+		"ft": 32768,
+		"iS": 2973,
+		"oA": 0,
+		"oAP": "\/assets\/img\/favicon.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/text_bg.gif": {
 		"ft": 4194304,
 		"iS": 5169162,

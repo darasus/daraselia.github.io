@@ -1,9 +1,10 @@
 body {
 	font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
-	background: #171717;
+	background: #151515;
 	color: #737373;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 100;
+    line-height: .85;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -14,7 +15,7 @@ body {
 .container h1 {
     font-family: 'Chewy', cursive;
     font-weight: bold;
-    font-size: 10rem;
+    font-size: 15vw;
     display: inline-block;
     background-image: url(assets/img/text_bg.gif);
     background-repeat: no-repeat;
@@ -25,8 +26,8 @@ body {
 }
 .container > span {
     display: block;
-    font-size: 20px;
-    margin-bottom: 20px; 
+    margin: 20px 0;
+    padding: 0 30px;
 }
 .container a {
     display: inline-block;
